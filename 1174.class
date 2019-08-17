@@ -5,8 +5,8 @@ import java.util.Scanner;
  */
 class Main {
   public static void main(String[] args) {
-     float X[] = new float[10];
-        for(int i = 0; i < 10; i++){
+     float X[] = new float[100];
+        for(int i = 0; i < 100; i++){
             Scanner num = new Scanner(System.in);
             X[i] = num.nextFloat();
         }
